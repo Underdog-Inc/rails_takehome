@@ -17,9 +17,9 @@ pickle-email-*.html
 !/log/.keep
 !/tmp/.keep
 
-# TODO Comment out this rule if you are OK with secrets being uploaded to the repo
-config/initializers/secret_token.rb
+# Ignore master key for decrypting credentials and more.
 config/master.key
+config/initializers/secret_token.rb
 
 # Only include if you have production secrets in this file, which is no longer a Rails default
 # config/secrets.yml
@@ -62,6 +62,14 @@ node_modules/
 yarn-debug.log*
 .yarn-integrity
 
-# Ignore uploaded files in development
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Ignore uploaded files in development.
 /storage/*
 !/storage/.keep
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
