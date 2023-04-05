@@ -4,7 +4,7 @@ To get a base level understanding of how you approach real life problems, we’d
 
 ## Step 1
 
-Import and persist the players from the following CBS api for baseball, football, and basketball. This should be build in a way where data can be periodically imported and update existing records in the database
+Import and persist the players from the following CBS API for baseball, football, and basketball. This should be build in a way where data can be periodically imported and update existing records in the database
 
 [http://api.cbssports.com/fantasy/players/list?version=3.0&SPORT=baseball&response_format=JSON](http://api.cbssports.com/fantasy/players/list?version=3.0&SPORT=baseball&response_format=JSON)
 
