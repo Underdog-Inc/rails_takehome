@@ -10,7 +10,7 @@ Import and persist the players from the following CBS api for baseball, football
 
 ## Step 2
 
-Create a JSON api endpoint for a player. Like seen below:
+Create a JSON API endpoint for a player. Like seen below:
 
 ```json
 {
@@ -37,7 +37,7 @@ Each element in the JSON should be self explanatory except for the following two
 
 ## Step 3
 
-Create a basic search JSON api endpoint that will return player based on any combination of the following parameters:
+Create a basic search JSON API endpoint that will return player data shown in Step 2 for all players found based on any combination of the following parameters:
 
 - Sport
 - First letter of last name
